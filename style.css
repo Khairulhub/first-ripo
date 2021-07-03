@@ -175,3 +175,69 @@ h1{
 .card:hover{
     transform: scale(1.050);
 }
+.portfolio{
+/* height: 100; */
+width: 100%;
+padding:10px 20px;
+
+/* background-color: #5f5f5f; */
+}
+.portfolio h2{
+    display:inline;
+    font-size:35px;
+    color: rgb(10, 10, 10);
+    border-bottom: 5px solid blue;
+    
+}
+.po-parts{
+    height:100%;
+    width: 100%;
+    padding:25px;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction:column; */
+    align-items: center;
+    justify-content:center;
+    background-color: #a7aaaf;
+    /* display:grid; */
+   
+}
+.portfolio-item{
+    /* box-sizing: border-box; */
+    height:500px;
+    width:245px;
+    margin: 20px;
+    border-radius: 25px;
+    background-color: #a7aaaf;
+    box-shadow: 0 0 1px black,15px 15px 12px #474747, -15px -15px 12px rgba(214, 214, 214, 0.918);
+    
+}
+/* .po-parts:hover{
+    
+    box-shadow:15px 15px 5px #cef0f3,
+} */
+img{
+    height:184px
+    width:245px;
+    border-radius:25px;
+}
+.portfolio-item h2{
+    display: block;
+    color: darkblue;
+    text-align:center;
+    font-size:25px;
+    margin-top: 5px;
+    border-bottom: none;
+    
+}
+.portfolio-item p{
+    text-align:justify;
+    padding: 20px;
+}
+#more {display: none;}
+.portfolio-item button{
+    background-color:blue;
+    padding:5px 15px;
+    margin-left: 15px;
+    text-align:center;
+}
